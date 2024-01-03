@@ -35,3 +35,27 @@ for(i = 1; i < 11; i++){
 }
 
 alert('1から10まで足し算した結果は' + num + 'です');
+
+function addString(strA){
+  let addStr = "Hello " + strA;
+  return addStr;
+}
+
+// メイン部分
+let alertString;
+
+// 作成した関数を呼び出し、変数へ格納
+alertString = addString("WebCamp");
+
+//変数の中身をアラートで表示する
+alert(alertString);
+
+// 作成した関数
+function addString(strA){
+  let addStr = "Hello " + strA;
+  return addStr;
+}
+
+let promptStr = prompt('何か好きな文字を入力してください。');
+
+alert(promptStr);
