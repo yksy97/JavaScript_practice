@@ -13,12 +13,3 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev', //「前へボタン」要素の指定
   }
 });
-
-$(function() {
-  $('#back a').on('click',function(event){
-    $('body, html').animate({
-      scrollTop:0
-    }, 800);
-    event.preventDefault();
-  });
-});
